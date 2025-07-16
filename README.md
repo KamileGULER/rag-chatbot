@@ -1,6 +1,6 @@
 # 🧠 RAG ChatBot – Knowledge-Based Intelligent Answering System
 
-**RAG ChatBot** is a Retriever-Augmented Generation (RAG) application that intelligently answers user questions by matching them with pre-defined content.  
+**RAG ChatBot** is a Retrieval-Augmented Generation (RAG) application that intelligently answers user questions by matching them with pre-defined content.  
 It combines Python, Flask, FAISS, and Transformers technologies to provide a fast and effective question-answering experience.
 
 ---
@@ -61,8 +61,6 @@ python app.py
 http://127.0.0.1:5000
 ```
 
----
-
 ## 📝 Dataset Format
 
 The chatbot expects a CSV file structured like this:
@@ -78,21 +76,6 @@ What is HTML?,HTML is used to structure web pages.
 
 ---
 
-## 💡 Potential Enhancements
-
-- ✅ Log user questions
-- ✅ Save chat history
-- ✅ Try other models (T5, Falcon, LLaMA, etc.)
-- ✅ Use a model fine-tuned specifically for Turkish
-
----
-
 ## 👨‍💻 Contributing
 
 You can fork the repo, submit pull requests, or open issues to suggest new features or report bugs. Contributions are welcome!
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
